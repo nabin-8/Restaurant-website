@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --navbar-height: 59px;
+}
+
+/* Navigation bar
+*/
+
+#navbar{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 0px;
+}
+
+#logo{
+    margin: 10px 34px;
+}
+
+#logo img{
+    height: 100px;
+    margin: 3px 6px;
+}
+
+#navbar ul{
+    display: flex;
+}
+#navbar::before{
+    content: "";
+    background-color:wheat;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+    top: 0px;
+    left: 0px;
+}
+
+#navbar ul li{
+    list-style: none;
+    font-size: 1.5rem;
+
+}
+#navbar ul li a{
+    color: black;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+
+}
+#navbar ul li a:hover{
+    color: white;
+    background-color: green;
+}
+
+/* Home Section */
+
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    justify-content: center;
+    align-items: center;
+    height: 580px;
+}
+
+#home::before{
+    content: "";
+    background: url(italian-cuisine-2378729.jpg) no-repeat center center/cover;
+    position: absolute;
+    height: 75%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.89;
+    top: 0px;
+    left: 0px;
+
+} 
+
+.h-primary{
+    font-size: 3.8rem;
+    padding: 12px;
+    text-align:center;
+    color: orange;
+   
+}
+
+.h-secondary{
+    font-size: 2.5rem;
+    padding: 12.px;
+    text-align: center;
+    
+}
+
+#home h1{
+    text-align: center;
+    color: green;
+
+}
+#home p{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.btn{
+    padding: 6px 20px;
+    border: 2px solid green;
+    background-color: green;
+    color: white;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+
+
+}
+.conter{
+    text-align: center;
+}
+/* services cointainer section */
+#services{
+    margin: 20px;
+    display: flex;
+    color: green;
+    
+}
+#services .box{
+    border: 2px solid black;
+    padding: 34px;
+    margin: 3px 6px;
+    border-radius: 28px;
+    background-color: #f2f2f2;
+
+}
+#services .box img{
+    height: 156px;
+    margin: auto;
+    display: block;
+}
+
+/* Clint Section */
+#client-section::before{
+    content: "";
+    position: absolute;
+    background: url('bac3.jpg') no-repeat center center/cover;
+    width: 100%;
+    height: 50%;
+    z-index: -1;
+    
+
+}
+#clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#clients img{
+    height: 124px;
+}
+.client-item{
+    padding: 34px;
+}
+
+/* Contact Section */
+#contact{
+    position: relative;
+
+}
+#contact::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.5;
+    background: url('bac4.jpg');
+
+}
+#contact-box input{
+    color: green;
+
+}
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+
+}
+#contact-box textarea{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 9px;
+    font-size: 1.2rem;
+}
+#contact-box{
+    width: 40%;
+    
+
+}
+#contact-box label{
+    font-size: 1.5rem;
+
+
+}
+.contact-us{
+    font-size: 3.8rem;
+    padding: 12px;
+    text-align:center;
+    color: orange;
+   height: 150px;
+
+}
+
+/* Footer styling */
+footer{
+    background-color: green;
+    color: white;
+    padding:9px 20px ;
+    text-align: center;
+}
