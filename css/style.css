@@ -47,7 +47,7 @@
 
 }
 #navbar ul li a{
-    color: black;
+    color: white;
     display: block;
     padding: 3px 22px;
     border-radius: 20px;
@@ -72,7 +72,7 @@
 
 #home::before{
     content: "";
-    background: url(../img/italian-cuisine-2378729.jpg) no-repeat center center/cover;
+    background: url(../img/background.jpg) no-repeat center center/cover;
     position: absolute;
     height: 75%;
     width: 100%;
@@ -88,6 +88,7 @@
     padding: 12px;
     text-align:center;
     color: orange;
+    /* border: 1px solid white; */
    
 }
 
@@ -97,15 +98,29 @@
     text-align: center;
     
 }
-
+#home {
+    margin-top: 5%;
+}
 #home h1{
     text-align: center;
     color: green;
 
 }
+.h1center{
+    /* color:red; */
+    margin-top: 5%;
+}
 #home p{
     text-align: center;
     font-size: 1.5rem;
+}
+#primary-top{
+    margin: 0 10% 5% 10%;
+    /* border: 1px  solid white; */
+    padding: 8px;
+    background-color: black;
+    color: white;
+    border-radius: 12px;
 }
 
 .btn{
@@ -127,6 +142,7 @@
     margin: 20px;
     display: flex;
     color: green;
+    /* border: 1px solid green; */
     
 }
 #services .box{
@@ -147,7 +163,7 @@
 #client-section::before{
     content: "";
     position: absolute;
-    background: url('bac3.jpg') no-repeat center center/cover;
+    background: url('../img/bac3.jpg') no-repeat center center/cover;
     width: 100%;
     height: 50%;
     z-index: -1;
@@ -178,7 +194,7 @@
     height: 100%;
     z-index: -1;
     opacity: 0.5;
-    background: url('bac4.jpg');
+    background: url('../img/bac4.jpg');
 
 }
 #contact-box input{

@@ -1,0 +1,48 @@
+#service-main{
+    margin-top: 6%;
+    border: 1px solid green;
+}
+
+.nextNav{
+    display: flex;
+    align-items: center;
+}
+
+.nextNav #logo{
+    margin: 10px 34px;
+}
+
+#logo img{
+    height: 100px;
+    margin: 3px 6px;
+    border-radius: 50%;
+}
+
+.nextNav ul{
+    display: flex;
+}
+
+.nextNav{
+    background-color:wheat;
+}
+
+.nextNav ul li{
+    list-style: none;
+    font-size: 1.5rem;
+
+}
+.nextNav ul li a{
+    color: white;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+
+}
+.nextNav ul li a:hover{
+    color: white;
+    background-color: green;
+}
+.center{
+    margin-top: 17%;
+}
